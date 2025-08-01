@@ -1,0 +1,27 @@
+{
+  "name": "geocode-with-opencage-maplibre-thunderforest",
+  "version": "1.0.0",
+  "description": "Geocding example using Opencage with Maplibre and Thunderforest Vector Tiles",
+  "main": "index.js",
+  "dependencies": {
+    "opencage-api-client": "^2.0.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsamaya/geocode-with-opencage-maplibre-thunderforest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tsamaya/geocode-with-opencage-maplibre-thunderforest/issues"
+  },
+  "homepage": "https://github.com/tsamaya/geocode-with-opencage-maplibre-thunderforest#readme"
+}
