@@ -13,8 +13,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "tsc && vite build",
     "clean": "rm -rf dist",
+    "check-types": "tsc --noEmit",
     "dev": "vite",
     "format": "prettier --write .",
     "preview": "vite preview"
@@ -24,6 +25,9 @@
     "vite": "^7.0.4"
   },
   "dependencies": {
-    "opencage-api-client": "^2.0.0"
+    "@maplibre/maplibre-gl-geocoder": "^1.9.0",
+    "maplibre-gl": "^5.6.1",
+    "opencage-api-client": "^2.0.0",
+    "typescript": "^5.9.2"
   }
 }
