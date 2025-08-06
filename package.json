@@ -1,6 +1,6 @@
 {
   "name": "geocode-with-opencage-maplibre-thunderforest",
-  "description": "Geocding example using Opencage with Maplibre and Thunderforest Vector Tiles",
+  "description": "Geocoding example using Opencage with Maplibre and Thunderforest Vector Tiles",
   "version": "0.0.0",
   "repository": {
     "type": "git",
