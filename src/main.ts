@@ -17,7 +17,7 @@ import './style.css';
 
 const map = new maplibregl.Map({
   container: 'map',
-  style: `https://api.thunderforest.com/styles/atlas/style.json?apikey=${import.meta.env.VITE_THUNDERFOREST_API_KEY}`, // Replace with your Thunderforest API key
+  style: `https://api.thunderforest.com/styles/atlas/style.json?apikey=${import.meta.env.VITE_THUNDERFOREST_API_KEY}`,
   center: [-0.1275, 51.507222],
   zoom: 3,
   canvasContextAttributes: { antialias: true },
@@ -84,6 +84,7 @@ const geocoderApi: MaplibreGeocoderApi = {
   reverseGeocode: geocodeAndReverseGeocode,
   forwardGeocode: geocodeAndReverseGeocode,
 };
+
 map.addControl(
   new MaplibreGeocoder(geocoderApi, {
     maplibregl,
