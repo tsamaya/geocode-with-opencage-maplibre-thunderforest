@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@maplibre/maplibre-gl-geocoder':
-        specifier: 1.9.0
-        version: 1.9.0(maplibre-gl@5.6.1)
+        specifier: 1.9.4
+        version: 1.9.4(maplibre-gl@5.6.1)
       maplibre-gl:
         specifier: 5.6.1
         version: 5.6.1
@@ -384,8 +384,8 @@ packages:
     resolution: {integrity: sha512-Es6WcD0nO5l+2BOQS4uLfNPYQaNDfbot3X1XUoloz+x0mPDS3eeORZJl06HXjwBG1fOGwCRnzK88LMdxKRrd6Q==}
     engines: {node: '>=6.0.0'}
 
-  '@maplibre/maplibre-gl-geocoder@1.9.0':
-    resolution: {integrity: sha512-3jGxHQu5u/N76YNsqp9FaosGXSmFw6nwZS2wuAIVLtfoixfF6OHy6ZjWTcSkxFVtBsKG8Sd/GS7Rnnjcol+C8w==}
+  '@maplibre/maplibre-gl-geocoder@1.9.4':
+    resolution: {integrity: sha512-ss0NMpjUgK1/8YrrikrAtdda41jERiGg+XqwPkj52AhwvQTLZEnZSU7IhqdyuE1FZ/QhlzAauMbyzJUTTxDscw==}
     engines: {node: '>=18'}
     peerDependencies:
       maplibre-gl: '>=4.0.0'
@@ -1970,7 +1970,7 @@ snapshots:
 
   '@mapbox/whoots-js@3.1.0': {}
 
-  '@maplibre/maplibre-gl-geocoder@1.9.0(maplibre-gl@5.6.1)':
+  '@maplibre/maplibre-gl-geocoder@1.9.4(maplibre-gl@5.6.1)':
     dependencies:
       events: 3.3.0
       lodash.debounce: 4.0.8
