@@ -49,6 +49,7 @@
     "maplibre-gl": "5.6.1",
     "opencage-api-client": "2.0.0"
   },
+  "packageManager": "pnpm@11.5.2",
   "lint-staged": {
     "*.{json,md,html}": [
       "prettier --write"
